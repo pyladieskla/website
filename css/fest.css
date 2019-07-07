@@ -1,0 +1,356 @@
+/** This is CSS for the Pyladies Fest page **/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+  font-family: "Segoe UI", Helvetica, "Segoe UI Light", Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+  position: relative;
+  cursor: default;
+  background: white;
+  padding: 0px;
+  margin: 0px;
+}
+.one {
+	background-image: url("../images/speech.jpg");
+	padding: 30px;	
+}
+#header {
+	
+}
+.fest-2019 {
+	padding: 70px;
+	text-align: center;
+}
+h2#fest-head {
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 7.7em;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+p.fest-head-body {
+	color: gainsboro;
+	font-size: 2em;
+	margin-top: 1%;
+}
+p.d-date {
+	font-weight: 600;
+	color: #ffcba4;
+  font-size: x-large;
+}
+p.bouton {
+	text-align: center;
+    margin-top: 4%;
+}
+.register {
+	background: gold;
+    padding: 15px 20px;
+    color: rosybrown;
+    text-decoration: none;
+    margin-right: 10%;
+}
+h1.ticker {
+	color: #f1f1f1;
+}
+ .ticker-words {
+  padding: 22px;
+  color: antiquewhite;
+  font-weight: 800;
+  font-family: "apple-system", Helvetica;
+}
+h1,h2,h3,h4,h5,h5 {
+	font-family: inherit;
+	color: #000;
+	font-weight: 400;
+}
+p {
+	font-family: inherit;
+}
+button {
+	padding: 12px 20px;
+    border: 0;
+}
+button:active {
+	color: gold;
+}
+table {
+	width: 100%;
+	margin-top: 2px;
+    border: 1px solid #eeeeee;
+}
+tr {
+	min-width: 200px;
+	position: relative;
+    vertical-align: inherit;
+    border-color: inherit;
+    font-weight: 300;
+    height: 138px;
+    background: linear-gradient(#ffffff, #eaeaea);
+}
+td {
+	
+}
+span {
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+    color: black;
+    font-family: inherit;
+    font-size: medium;
+}
+a:visited {
+	color: #222222;
+}
+#countdown {
+	font-size: 4em;
+    font-weight: bold;
+    color: gold;
+    text-align: -webkit-center;
+    margin-top: -3%;
+}
+.ticker {
+	padding-bottom: 40px;
+    font-size: larger;
+    margin-top: -30px;
+}
+#demo {
+	padding: 40px;
+	margin-top: 40px;
+}
+.mid {
+	padding: 0px 70px 0 70px;
+}
+section.mid:after {
+	background-color: ghostwhite;
+}
+.side-bar {
+	height: 1046px;
+    width: 30%;
+    float: left;
+    background: #ffcba4c7;
+    text-align: -webkit-center;
+    padding-top: 20px;
+    text-align-last: center;
+    margin-top: -80px;
+    color: #FC6C85;
+}
+.time {
+	font-size: 50px;
+	height: 140px;
+}
+.topics {
+	float: right;
+	position: absolute;
+    z-index: 20;
+}
+.grid-row {
+	display: grid;
+	grid-template-rows: 1fr;  	
+  	padding: 0 4px;
+}
+a img {
+ 	margin-top: 1px;
+ 	vertical-align: middle;
+  	height: 140px;
+  	width: 19.64%;
+}
+
+/* Style the buttons */
+.btn {
+  	border: none;
+  	outline: none;
+  	padding: 10px 16px;
+  	background-color: #f1f1f1;
+  	cursor: pointer;
+  	font-size: 18px;
+}
+
+.btn:hover {
+  	background-color: #ddd;
+}
+
+.btn.active {
+	background-color: #666;
+	color: white;
+}
+.lower {
+	display: block;
+}
+.grid-overlay {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+.item-content {
+	padding-left: 30px;
+}
+.media {
+	display: flex;
+}
+img.round-image {
+	height: 60px;
+	width:60px;
+	border-radius: 50% !important;
+}
+.speaker-img {
+	height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 5px 0px 0px rgba(181, 181, 181, 0.2);
+    margin-left: 27px;
+}
+.schedule-layout {
+	margin-top: -79px;
+    border-bottom: 0;
+}
+li.nav-item {
+	float: left;
+    display: inline-block;
+    width: 200px;
+    border-bottom: 0;
+    text-align: center;
+    margin-right: 5px;
+    margin-top: 10%;
+}
+.scheduleContent {
+	background-color: #FFFFFF;
+    padding: 0px;
+    display: none;
+}
+.defaultOpen {
+	display: block;
+}
+
+.schedule-info {
+	padding: 20px 15px;
+}
+.tablink {
+	width: 197px;
+    height: 80px;
+    font-family: "apple-system","Segoe UI","Helvetica Neue";
+    font-size: larger;
+    font-weight: 600;
+}
+.tablink:hover {
+	background-color: gold;
+}
+button.tablink:active {
+	background-color: gold;
+}
+.media-body {
+	padding: 20px;
+}
+h3.thank-you {
+	display: inline-block;
+  margin-top: inherit;
+  font-size: 30px;
+  color: aliceblue;
+}
+.sponsors {
+    display: inherit;
+    padding-top: 10px;
+}
+.lower-mid {
+	background-color: #7d0552;
+    padding: 50px;
+    text-align: center;
+}
+#location {
+  color: white;
+  background: #222222 url(../images/white-bg.png);
+  background-image: url(../images/dark-bg.jpg); }
+  #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
+    color: white; }
+  #location code, #location abbr, #location acronym {
+    color: #d9d9d9; }
+  #location .row {
+    overflow: hidden; }
+  #location .address span {
+    display: block;
+    padding-bottom: 0.5em; }
+  #location .address a {
+    color: #00aeef; }
+    @media only screen and (min-width: 768px) {
+    #location .address p {
+      text-align: right; }
+    #location img {
+      border-radius: 0 0.5em 0.5em 0; } }
+.feature {
+  padding: 1em 0 2em 0;
+  position: relative;
+  overflow: hidden;
+  clear: both; 
+}
+.feature .row {
+  margin-bottom: 1em;
+  max-width: 1000px;
+  text-align: center; 
+}
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1; 
+}
+.row:before, .row:after {
+  content: " ";
+  display: table; 
+}
+.row:after {
+   clear: both; 
+}
+.large-4 {
+  position: relative;
+  width: 33.33333%; 
+}
+.locale {
+  font-size: 200%;
+}
+.columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+  float: left; 
+}
+[class*="column"] + [class*="column"]:last-child {
+    float: right; 
+    width: auto;
+}
+footer {
+	position: relative;
+    background: #7D0552;
+    background-size: cover;
+    color: #fff;
+    padding: 90px;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h3.footer-header {
+	color: #ffcba4;
+	padding-bottom: 15px;
+}
+.footer-links {
+  color: white;
+}
